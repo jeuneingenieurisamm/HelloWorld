@@ -1,0 +1,17 @@
+<h1>Interpolation</h1>
+<h3>{{name}} is learning Angular</h3>
+<hr>
+
+<h1>Property Binding</h1>
+<button [disabled]="isDisabled">Disabled</button>
+<!-- We initialize the LOCATION property of the FIRST-COMP by the value of the PLACE variable of THIS component -->
+<first-comp [location]="place"></first-comp>
+<hr>
+
+<h1>Event Binding</h1>
+<button (click)="onClick()">Click Me</button>
+<hr>
+
+<h1>Two Way Data Binding</h1>
+<p>{{twoWay}}</p>
+<input type="text" [(ngModel)]="twoWay">
