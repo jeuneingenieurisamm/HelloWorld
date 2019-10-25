@@ -40,3 +40,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# ignore `We found potential security vulnerabilities in your dependencies.
+`
+package-lock.json
+yarn.lock
